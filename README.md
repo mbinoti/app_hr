@@ -66,3 +66,4 @@ npm run import:hr -- --clear
 ```
 # newsflow
 # app_hr
+# app_hr
