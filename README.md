@@ -65,3 +65,4 @@ Para apagar os documentos principais antes de importar novamente:
 npm run import:hr -- --clear
 ```
 # newsflow
+# app_hr
