@@ -1,0 +1,12 @@
+{
+  "name": "app-hr-firestore-import",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:hr": "node scripts/import_hr_firestore.js",
+    "import:hr:dry-run": "node scripts/import_hr_firestore.js --dry-run"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.6.0"
+  }
+}
