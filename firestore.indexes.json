@@ -65,6 +65,20 @@
         { "fieldPath": "commissionPct", "order": "ASCENDING" },
         { "fieldPath": "salary", "order": "DESCENDING" }
       ]
+    },
+    {
+      "collectionGroup": "employees",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "commission_pct",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "salary",
+          "order": "DESCENDING"
+        }
+      ]
     }
   ],
   "fieldOverrides": []
