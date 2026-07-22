@@ -38,8 +38,8 @@ class DashboardPage extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
               children: [
                 const DashboardHero(
-                  title: 'Ola, Marcos',
-                  subtitle: 'Bem-vindo ao HR Explorer',
+                  title: 'Schema HR no Firestore',
+                  subtitle: 'Uma exploração do modelo HR da Oracle em NoSQL',
                 ),
                 const SizedBox(height: 16),
                 if (!status.isReady) FirebaseWarning(status: status),
